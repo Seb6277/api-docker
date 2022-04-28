@@ -19,7 +19,7 @@ mongoose.connect(mongodbUrl, {
 app.use('/api/users', require('./routes/users'));
 app.use('/api/event', require('./routes/event'));
 
-const port  = 5000;
+const port  = 5001;
 
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
