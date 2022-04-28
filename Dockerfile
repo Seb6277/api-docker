@@ -4,5 +4,5 @@ WORKDIR /api
 COPY . .
 CMD npm install && node server.js
 
-EXPOSE 5001
-LABEL version="1.0"
+EXPOSE 5000
+LABEL version="2.0"
