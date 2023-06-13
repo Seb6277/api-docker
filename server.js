@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-const mongodbUrl = "mongodb+srv://application:test@cluster0-sqljl.mongodb.net/test?retryWrites=true&w=majority";
+const mongodbUrl = "mongodb+srv://seb:test@cluster0.loi4tec.mongodb.net/?retryWrites=true&w=majority";
 
 const app = express();
 app.use(express.json());
